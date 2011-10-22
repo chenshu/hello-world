@@ -50,6 +50,8 @@ git reset HEAD COMMAND
 git checkout -- COMMAND
 git remote
 git remote add fc git://github.com/fredchen/hello-world.git
+git remote show origin
 git fetch fc
+git merge master/origin
 git pull
 git push origin master

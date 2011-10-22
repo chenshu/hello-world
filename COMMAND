@@ -51,6 +51,8 @@ git checkout -- COMMAND
 git remote
 git remote add fc git://github.com/fredchen/hello-world.git
 git remote show origin
+git remote rename pb paul
+git remote rm paul
 git fetch fc
 git merge master/origin
 git pull

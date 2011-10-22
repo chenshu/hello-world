@@ -55,7 +55,9 @@ git remote rename pb paul
 git remote rm paul
 git fetch fc
 git merge master/origin
+git merge hotfix
 git pull
 git push origin master
 git branch testing
+git branch -d hotfix
 git checkout -b testing === git branch testing; git checkout testing

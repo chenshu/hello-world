@@ -6,3 +6,4 @@ git commit -a -m "skip staged area"
 git status
 git diff
 git diff --staged
+git rm abc

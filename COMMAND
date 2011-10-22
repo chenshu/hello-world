@@ -57,3 +57,5 @@ git fetch fc
 git merge master/origin
 git pull
 git push origin master
+git branch testing
+git checkout testing

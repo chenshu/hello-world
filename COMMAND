@@ -7,3 +7,5 @@ git status
 git diff
 git diff --staged
 git rm abc
+git rm -f abc
+git rm --cached abc

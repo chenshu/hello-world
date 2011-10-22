@@ -48,3 +48,4 @@ git log --since --until --author --grep --all-match
 %s 提交说明
 git reset HEAD COMMAND
 git checkout -- COMMAND
+git remote show origin

@@ -58,6 +58,9 @@ git merge master/origin
 git merge hotfix
 git pull
 git push origin master
+git branch
+git branch --merge
+git branch --no-merged
 git branch testing
 git checkout testing
 git checkout -b testing === git branch testing; git checkout testing

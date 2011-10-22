@@ -3,6 +3,7 @@ git add COMMAND
 git commit 
 git commit -m "init COMMAND file"
 git commit -a -m "skip staged area"
+git commit --amend
 git status
 git diff
 git diff --staged
@@ -17,6 +18,7 @@ git log --stat
 git log --pretty=oneline
 git log --pretty=format:"%h - %an, %ar : %s"
 git log --pretty=format:"%h %s" --graph
+git log --since --until --author --grep --all-match
 -(n) 仅显示最近的 n 条提交
 -p 按补丁格式显示每个更新之间的差异。
 --since, --after 仅显示指定时间之后的提交。
@@ -44,5 +46,4 @@ git log --pretty=format:"%h %s" --graph
 %cd 提交日期
 %cr 提交日期,按多久以前的方式显示
 %s 提交说明
-git log --since --until --author --grep --all-match
-git commit --amend
+git reset HEAD COMMAND

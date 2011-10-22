@@ -1,8 +1,8 @@
 git init
 git add COMMAND
-git commit -m "init COMMAND file"
 git commit 
-
+git commit -m "init COMMAND file"
+git commit -a -m "skip staged area"
 git status
 git diff
 git diff --staged

@@ -59,5 +59,6 @@ git merge hotfix
 git pull
 git push origin master
 git branch testing
-git branch -d hotfix
+git checkout testing
 git checkout -b testing === git branch testing; git checkout testing
+git branch -d hotfix

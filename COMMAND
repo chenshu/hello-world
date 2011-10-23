@@ -54,7 +54,8 @@ git remote show origin
 git remote rename pb paul
 git remote rm paul
 git fetch fc
-git merge master/origin
+git fetch origin
+git merge origin master
 git merge hotfix
 git pull
 git push origin master
@@ -64,4 +65,9 @@ git branch --no-merged
 git branch testing
 git checkout testing
 git checkout -b testing === git branch testing; git checkout testing
+git checkout -b iss origin/iss === git checkout --track origin/iss
 git branch -d hotfix
+git push origin :iss
+git rebase master
+git rebase --onto master server client
+git rebase master server
